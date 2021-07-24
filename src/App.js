@@ -1,10 +1,12 @@
 import './App.css';
-import Focus from './components/Focus';
+import Copy from './components/Copy';
+/* import Focus from './components/Focus'; */
 
 function App() {
   return (
     <div className="App">
-     <Focus />
+     {/* <Focus /> */}
+     <Copy />
     </div>
   );
 }
