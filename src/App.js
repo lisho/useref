@@ -1,12 +1,14 @@
 import './App.css';
-import Copy from './components/Copy';
+import MediaPlayer from './components/MediaPlayer';
+/* import Copy from './components/Copy'; */
 /* import Focus from './components/Focus'; */
 
 function App() {
   return (
     <div className="App">
      {/* <Focus /> */}
-     <Copy />
+     {/* <Copy /> */}
+     <MediaPlayer />
     </div>
   );
 }
