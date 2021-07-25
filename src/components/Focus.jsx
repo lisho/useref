@@ -3,10 +3,6 @@ import React, { useRef, useState } from "react";
 const Focus = () => {
   const [texto, setTexto] = useState("");
   const inputRef = useRef();
-  /*  useEffect(() => {
-      console.log(texto)
-      
-  }, [texto]) */
 
   const handleFocaliza = () => {
     inputRef.current.focus();
